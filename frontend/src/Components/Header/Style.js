@@ -6,17 +6,17 @@ const Style = {
         borderRadius:"8px"
     },
     containerstyle:{
-        margin:"20px",
         padding:"10px",
         display:"flex",
         flexDirection:"row",
-        justifyContent:"space-evenly",
-        width:"100vw"
+        
+        justifyContent:'space-around',
+        width:"100%"
     },
     linkcontainerstyle:{
         display:"flex",
         flexDirection:"row",
-        justifyContent:"space-around",
+        justifyContent:"space-between",
         width:"60%"
     }
 
