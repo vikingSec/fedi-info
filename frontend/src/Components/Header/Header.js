@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'react-router-dom';
 import Style from './Style'
 function Header(){
     return(
@@ -6,8 +7,8 @@ function Header(){
 
             <div style={Style.linkcontainerstyle}>
                 
-                <h3>Home</h3>
-                <h3>About</h3>
+                <Link to={"/"}><h3>Home</h3></Link>
+                <Link to={"/about"}><h3>About</h3></Link>
                 <h3>Blah</h3>
 
             </div>
